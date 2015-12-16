@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Employee</title>
+</head>
+<body> 
+	<div>
+		<form action="">
+			<span><font size="6"><b>Add Employee</b></font></span>
+			<br>
+			<br>
+			<div>
+				<label for="first_name">First Name:</label>
+				<input type="text" id="first_name" name="first_name" placeholder="First name">
+			</div>
+			<br>
+			<div>
+				<label for="last_name">Last Name:</label>
+				<input type="text" id="last_name" name="last_name" placeholder="Last name">
+			</div>
+			<br>
+			<div>
+				<label for="title">Title:</label>
+				<input type="text" id="title" name="title">
+			</div>
+			<br>
+			<div>
+				<span>Title of Courtesy:</span>
+					<label for="title-of-couretesy-dr">Dr.</label>
+					<input type="radio" id="title-of-couretesy-dr" name="title-of-couretesy" value="dr">
+					
+					<label for="title-of-couretesy-mr">Mr.</label>
+					<input type="radio" id="title-of-couretesy-mr" name="title-of-couretesy" value="mr">
+					
+					<label for="title-of-couretesy-mrs">Mrs.</label>
+					<input type="radio" id="title-of-couretesy-mrs" name="title-of-couretesy" value="mrs">
+					
+					<label for="title-of-couretesy-ms">Ms.</label>
+					<input type="radio" id="title-of-couretesy-ms" name="title-of-couretesy" value="ms" checked="checked">
+			</div>
+			<br>
+			<div>
+				<label for="birth_date">Birth Date:</label>
+				<input type="date" id="birth_date" name="birth_date">
+			</div>
+			<br>
+			<div>
+				<label for="hire_date">Hire Date:</label>
+				<input type="date" id="hire_date"name="hire_date">
+			</div>
+			<br>
+			<div>
+				<label for="address">Address:</label>
+				<input type="text" id="address" name="address">
+			</div>
+			<br>
+			<div>
+				<label for="city">City:</label>
+				<input type="text" id="city" name="city">
+			</div>
+				<br>
+			<div>
+				<label for="region">Region:</label>
+				<input type="text" id="region" name="region">
+			</div>
+				<br>
+			<div>
+				<label for="postal_code">Postal Code:</label>
+				<input type="text" id="postal_code" name="postal_code">
+			</div>
+				<br>
+			<div>
+				<label for="country">Country:</label>
+				<input type="text" id="country" name="country">
+			</div>
+				<br>
+			<div>
+				<label for="home_phone">Home phone:</label>
+				<input type="text" id="home_phone" name="home_phone">
+			</div>	<br>
+			<div>
+				<label for="extension">Extension:</label>
+				<input type="text" id="extension" name="extension">
+			</div>
+			<br>
+			<div>
+				<label for="notes">Notes:</label>
+				<br>
+				<textarea rows="5" cols="25" name="notes"></textarea>
+			</div>
+			<br>
+			<div>
+				<label for="manager">Manager:</label>
+				<select id="manager" name="manager">
+					<option value="1" selected="selected">Georgi Dimitrov</option>
+					<option value="2">Hristo Stefanov</option>
+					<option value="3">Ivan Ivanov</option>
+				</select>
+				<br>
+				<label for="pass">Password:</label>
+				<input type="password" id="pass" name="pass">
+				<br>
+				<label for="repeat_pass">Repeat Password:</label>
+				<input type="password" id="repeat_pass" name="repeat_pass">
+			</div>
+			<div>
+				<button type="submit">Add Employee</button>
+			</div>
+		</form>
+		
+	</div>
+	
+
+</body>
+</html>
